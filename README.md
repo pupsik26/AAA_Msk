@@ -9,7 +9,7 @@ composer install
 php artisan migrate
 ```
 ```
-php artisan make:seeder
+php artisan db:seed
 ```
 
 Проект доступен на localhost
