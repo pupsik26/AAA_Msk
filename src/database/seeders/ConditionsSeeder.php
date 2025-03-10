@@ -16,32 +16,32 @@ class ConditionsSeeder extends Seeder
     public function run(): void
     {
         DB::table('conditions')->insert([
-            'name' => RulesEnum::OBJ_STARDOM,
-            'condition' => ConditionEnum::EQUAL,
+            'name' => RulesEnum::OBJ_STARDOM->name,
+            'condition' => ConditionEnum::EQUAL->name,
             'equality' => 3
         ]);
 
         DB::table('conditions')->insert([
-            'name' => RulesEnum::OBJ_STARDOM,
-            'condition' => ConditionEnum::EQUAL,
+            'name' => RulesEnum::OBJ_STARDOM->name,
+            'condition' => ConditionEnum::EQUAL->name,
             'equality' => 5
         ]);
 
         DB::table('conditions')->insert([
-            'name' => RulesEnum::OBJ_STARDOM,
-            'condition' => ConditionEnum::EQUAL,
+            'name' => RulesEnum::OBJ_STARDOM->name,
+            'condition' => ConditionEnum::EQUAL->name,
             'equality' => 1
         ]);
 
         DB::table('conditions')->insert([
-            'name' => RulesEnum::OBJ_CITY,
-            'condition' => ConditionEnum::EQUAL,
+            'name' => RulesEnum::OBJ_CITY->name,
+            'condition' => ConditionEnum::EQUAL->name,
             'equality' => 2
         ]);
 
         DB::table('conditions')->insert([
-            'name' => RulesEnum::OBJ_COMMISSION_DISCOUNT,
-            'condition' => ConditionEnum::MORE,
+            'name' => RulesEnum::OBJ_COMMISSION_DISCOUNT->name,
+            'condition' => ConditionEnum::MORE->name,
             'equality' => 5
         ]);
     }
